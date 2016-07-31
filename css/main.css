@@ -1,0 +1,237 @@
+  #log{
+    text-align: center;
+    border: 1pt solid #000;
+
+  }
+
+   #LimbDamage{
+    display: none;
+    float: right;
+    margin-right: 250px;
+
+   }
+
+    li{
+        float:right;
+        width:100px;
+        
+    }
+    body{
+        background-color: red;
+    }
+    #lorem{
+        float:top;
+    }
+  #AttackList{
+    margin:0px;
+    padding: 0px;
+    display: none;
+}
+#AttackList1{
+    border: 5pt solid #000;
+    display:none;
+    height: 50px;
+
+}
+ul{
+    display: none;
+}
+
+
+    .goblin{
+
+height:50px;
+        width: 50px;
+       float:right;
+       margin:auto
+    }
+#GoblinPic{
+    display: none;
+height:50px;
+        width: 50px;
+       float:right;
+       margin:auto
+}
+#ZombiePic{
+    display: none;
+height:50px;
+        width: 50px;
+       float:right;
+       margin:auto
+}
+#OgerPic{
+    display: none;
+height:50px;
+        width: 50px;
+       float:right;
+       margin:auto
+}
+#NextPage1, #right1, #left{
+display: none;
+}
+
+    .dice1,.dice2 {float:left;
+			width:32px;
+			background: #f5f5f5;
+			border: #999 1pt solid;
+			padding: 10px;
+			font-size:24px;
+			text-align:center;
+			margin:5px;
+            display: none;
+		}
+        #status1{
+            margin:auto;
+            float: right;
+            margin-top: 75px;
+        }
+        .DGMdice1,.DGMdice2 {float:left;
+
+            width:32px;
+            background: #f5f5f5;
+            border: #999 1pt solid;
+            padding: 10px;
+            font-size:24px;
+            text-align:center;
+            margin:5px;
+            display: none;
+        }
+        .LimbDmgDie,.LimbDie {
+            float: left;
+     
+            margin-right:25px;
+            float:right;
+            width:32px;
+            background: #f5f5f5;
+            border: #999 1pt solid;
+            padding: 10px;
+            font-size:24px;
+            text-align:center;
+            
+      
+        }
+
+		#DmgDice {
+			display: none;
+		}
+        #AtkDice{
+            display: none;
+        }
+		.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 200px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+./*dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}*/

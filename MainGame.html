@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Actual game</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+<h1 id='h1'> you have no idea why your here, or how you got there but you know there's something wrong with this dungeon </h1>
+<h3 id='h3'>while exploring the cave you happen upon a chest</h3>
+<h4 id='h4'>open it? yes / no </h4>
+<p id='log'></p>
+<button id="yes"> yes </button>
+<button id="no"> no </button>
+<button id="right1"> right </button>
+<button id="left" onclick="left1()"> left </button>
+<p id='lorem'> </p>
+<button id="NextPage1" onclick="NextPage1()"> NextPage </button>
+<img id='GoblinPic' src="11-5-goblin.jpg">
+<img src="Oger.jpeg" id='OgerPic'>
+<img src="zombie18.png" id='ZombiePic'>
+<!--drop down menu-->
+<<!-- div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div> -->
+
+
+<div class='InsertTextHere'></div>
+
+<div id="die1" class="dice1">0</div>
+<div id="die2" class="dice2">0</div>
+<div id="die3" class="DGMdice1">0</div>
+<div id="die4" class="DGMdice2">0</div>
+
+
+
+
+
+
+<button id="AtkDice" onclick="rollDice1()"> Direct Atk dice </button>
+<button id="DmgDice" onclick="rollDice()"> dmg dice </button>
+
+<h2 id="status" style="clear:left;"> </h2>
+
+<!-- <div class="Tutorial_Goblin"></div> -->
+
+<h3 id="dmg" clas="dmg"></h3>
+<!---from here on the code is about the modal -->
+
+<button id="myBtn">stats</button>
+
+<div id="myModal" class="modal">
+
+
+  <div class="modal-content">
+    <span class="close">x</span>
+    <p id="HealthMenu"></p>
+  </div>
+
+</div>
+<!---FAOIDSGHPIEWURGHREUWOIGHIEWUG-->
+	<h5 id ="health">health:</h5>
+	<a href="index.html" id="startPage">start page</a>
+<button>
+	<div id="inventory">inventory</div>
+	</button>
+
+<!-- <p id='log' style="margin-top:70px;"></p>
+ --> 
+<div id='log1' style="margin-bottom:70px;"></div>
+  <div id='AttackList1' onclick='AttackList2()'> Alternate attack
+
+  <ul id='AttackList'>
+  <button id="LimbDamage"> Limb Damage Dice</button>
+  <div id="die6" class="LimbDmgDie">0</div>
+ <div id="die5" class="LimbDie">0</div>
+<h2 id="status1" style="clear:right;"></h2>
+    <div id='div1'></div>
+
+<li id='arms'> <p id='arms1'></p>  <button onclick="arms()"> arms</li> </button>
+<li id='legs'> <p id='legs1'></p> <button> legs </button> </li> 
+<li id='head'> <p id='head1'></p>  <button> head</li> </button>
+<li id='chest'>  <p id='chest1'> </p> <button onclick='chest()'> chest</li> </button>
+
+
+</ul>
+
+</div>
+<p id='log' style="margin-top:70px;"></p>
+
+
+
+<script src="scripts/main(game).js"> </script>
+</body>
+</html>
